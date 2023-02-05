@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>EX3</title>
+</head>
+
+<body>
+    <div class="generate">
+        <form action="" class="form-controls">
+            <button id="btn_copy" type="button" class="btn_copy"></button>
+            <input type="text" disabled class="generate-aria" id="generate-aria" name="" id="">
+            <div class="range_div">
+                <input type="range" min="0" max="16" value="8" id="range" name="range">
+                <label for="range">08</label>
+            </div>
+            <div>
+                <input type="checkbox" checked id="upper" name="up">
+                <label for="upper">Upper Case</label>
+            </div>
+            <div>
+                <input type="checkbox" checked id="lower" name="low">
+                <label for="lower">Lower Case</label>
+            </div>
+            <div>
+                <input type="checkbox" checked id="number" name="num">
+                <label for="number">Numbers</label>
+            </div>
+            <div>
+                <input type="checkbox" checked id="symbols" name="symb">
+                <label for="symbols">Symbols</label>
+            </div>
+        </form>
+        <div class="generate-container">
+            <button class="btn_generate" id="btn_generate">Generate</button>
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+
+</html>
